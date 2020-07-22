@@ -36,25 +36,25 @@ function calcIMC(Peso, Altura){
     }
     switch (i){
         case 1:
-            document.write("Su IMC es de " +IMC+ " Y tiene Delgadez muy Severa");
+            document.write("IMC:" +IMC+ "Delgadez muy Severa");
             break;
         case 2:
-            document.write("Su IMC es de " +IMC+ " Y tiene Delgadez Severa");
+            document.write("IMC:" +IMC+ " Delgadez Severa");
             break;
         case 3:
-            document.write("Su IMC es de " +IMC+ " Y tiene Delgadez");
+            document.write("IMC:" +IMC+ "Delgadez");
             break;
         case 4:
-            document.write("Su IMC es de " +IMC+ " Y tiene Peso Saludable");
+            document.write("IMC:" +IMC+ " Peso Saludable");
             break;
         case 5:
-            document.write("Su IMC es de " +IMC+ " Y tiene Sobrepeso");
+            document.write("IMC:" +IMC+ " Sobrepeso");
             break;
         case 6:
-            document.write("Su IMC es de " +IMC+ " Y tiene Obesidad Severa");
+            document.write("IMC:" +IMC+ "Obesidad Severa");
             break;
         case 7:
-            document.write("Su IMC es de " +IMC+ " Y tiene Obesidad Morbida");
+            document.write("IMC:" +IMC+ "Obesidad Morbida");
             break;
         case 8:
             document.write("Datos invalidos");
