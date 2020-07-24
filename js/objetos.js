@@ -1,11 +1,11 @@
 var CuentaAhorro = 
         {
-            titular: "Alex",
+            titular: " Alex",
             saldo : 0,
             ingresar: function(cantidad)
             {
                 console.log("Has ingresado" + cantidad + "Euros");
-                this.saldo += cantidad;
+                return this.saldo += cantidad;
             },
 
             extraer: function(cantidad)
@@ -21,6 +21,7 @@ var CuentaAhorro =
         } 
 
 console.log(CuentaAhorro.titular);
+console.log(CuentaAhorro.saldo)
 console.log("------------------");
 console.log(CuentaAhorro.ingresar(80));
 console.log(CuentaAhorro.extraer(20));
