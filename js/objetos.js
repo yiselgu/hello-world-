@@ -23,8 +23,8 @@ var CuentaAhorro =
 console.log(CuentaAhorro.titular);
 console.log(CuentaAhorro.saldo)
 console.log("------------------");
-console.log(CuentaAhorro.ingresar(80));
-console.log(CuentaAhorro.extraer(20));
+console.log(CuentaAhorro.ingresar(100));
+console.log(CuentaAhorro.extraer(50));
 
 console.log(CuentaAhorro.informar());
 
